@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: $light-gray;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
@@ -259,7 +259,7 @@ POSTS & CONTENT STYLES
 			background-color: $white;
 			border-radius: 3px;
 			margin-bottom: 1.5em;
-			border: 1px solid $border-color;
+			border: 3px solid $border-color;
 
 			header {
 				border-bottom: 1px solid $light-gray;
@@ -822,7 +822,9 @@ COMMENT FORM STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {}
+.sidebar {
+	display: none;
+}
 
 	.widgettitle {}
 
@@ -887,3 +889,29 @@ FOOTER STYLES
 
 
 	.copyright {}
+
+/*********************
+COLUMN STYLES
+*********************/
+
+.clm {
+	width: 48%;
+}
+.clm__one {
+	background-image: url("http://phoogoodev.com/ariel-practice/wp-content/uploads/2016/07/13-01-2016b-1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 350px;
+	display: inline-block;
+	border-radius: 16px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.clm__two {
+	background-image: url("http://phoogoodev.com/ariel-practice/wp-content/uploads/2016/07/13-01-2016b-2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 350px;
+	display: inline-block;
+	border-radius: 16px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
